@@ -3,7 +3,6 @@ import socket
 import threading
 
 def handle_client(client_socket):
-    """Handles the communication with the client."""
     while True:
 
         data = client_socket.recv(1024)
